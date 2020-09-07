@@ -1,0 +1,8 @@
+<h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+<p>Are your URLs too short? Lengthen your URLs conveniently and share your links without ambiguity ("All As.").</p>
+
+<form action="/" method="get">
+  <input type="url" name="url" placeholder="Enter your URL...">
+  <input value="Lengthen" type="submit">
+</form>
+<%= link_to @link&.url, @link&.url ? @link.url : "" %>
